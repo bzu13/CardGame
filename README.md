@@ -116,64 +116,58 @@ Card Classes:
 
 Sample Run:
 
-`Enter number of players as an integer between 2 and 4: 3`  
+    Enter number of players as an integer between 2 and 4: 3   
+    
+    Beginning Game...  
+    Enter number of players as an integer between 2 and 4: 3
+    Beginning Game...
+    player1 Press any key and then enter to take turn:a
 
-`Beginning Game...`  
+    player1 drew card: Nine of Hearts
+    player2 Press any key and then enter to take turn:d
 
-`player1 Press any key and then enter to take turn:a`. 
+    player2 drew card: Nine of Diamonds
+    player3 Press any key and then enter to take turn:m 
+    player3 drew card: Two of Clubs
 
-
-`player1 drew card: Nine of Hearts`
-  
-`player2 Press any key and then enter to take turn:d`
-  
-  
-`player2 drew card: Nine of Diamonds`
-  
-  
-player3 Press any key and then enter to take turn:m 
-  
-  player3 drew card: Two of Clubs
-
-  
-  Score Board after round 1 player1: 2
-  
-  player2: 0
-  
-  player3: 0
+    Score Board after round 1 player1: 2
+    player2: 0
+    player3: 0
 
 
-player1 Press any key and then enter to take turn:a
+    player1 Press any key and then enter to take turn:a
 
-player1 drew card: Two of Spades
-player2 Press any key and then enter to take turn:d
+    player1 drew card: Two of Spades
+    player2 Press any key and then enter to take turn:d
 
-player2 drew card: Ten of Diamonds
-player3 Press any key and then enter to take turn:m player3 drew card: Jack of Clubs
+    player2 drew card: Ten of Diamonds
+    player3 Press any key and then enter to take turn:m 
+    player3 drew card: Jack of Clubs
 
-Score Board after round 2 player1: 2
-player2: 0
-player3: 2
-
-
-...
-player1 Press any key and then enter to take turn:a player1 drew card: Nine of Diamonds
-player2 Press any key and then enter to take turn:d
-
-player2 drew card: Four of Diamonds
-player3 Press any key and then enter to take turn:m player3 drew card: Queen of Hearts
-
-Score Board after round 27 player1: 13
-player2: 14
-player3: 21
+    Score Board after round 2 player1: 2
+    player2: 0
+    player3: 2
 
 
-Player player3 wins!
-Winning Score: 21`
- 
+    ...
+    player1 Press any key and then enter to take turn:a
+     player1 drew card: Nine of Diamonds
+    player2 Press any key and then enter to take turn:d
+
+    player2 drew card: Four of Diamonds
+    player3 Press any key and then enter to take turn:m
+     player3 drew card: Queen of Hearts
+
+    Score Board after round 27 player1: 13
+    player2: 14
+    player3: 21
+
+
+    Player player3 wins!
+    Winning Score: 21
 Notes
 
-For this project, I actually really enjoyed working through the process of creating the game! The only places I really got hung up were the shuffling of the deck and handling when two players drew cards with the same face.
+For this project, I really enjoyed working through the process of creating the game! The only places I really got hung up were the shuffling of the deck and handling when two players drew cards with the same face.
 For shuffling, I knew the basics of how to rearrange the cards with the Random class, but I was of course getting repeats during this process. After a little research, I found that using the Set structure would help me keep track of which indexes I had already used since Sets do not allow repeats. I used this source to help me understand sets:
 -	https://javarevisited.blogspot.com/2015/06/3-ways-to-find-duplicate-elements-in-array- java.html
 For the ranking based on Suits, I spent a good bit of time trying to figure out the best way to approach this and finally the solution occurred to me after taking some time away from thinking about it by crocheting! I have found in my college career that sometimes focusing at something completely different from the code allows me to think of things in a different way and find a solution I had not considered before.
